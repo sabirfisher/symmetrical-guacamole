@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "leoscar-sans-serif";
+    src: url("Leoscar Sans Serif.ttf");
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    background-color: rgb(77, 118, 255);
+    font-family: 'leoscar-sans-serif', 'sans-serif';
+    color: aliceblue;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    background-image: url(background.svg);
+      
+      
+    
+    
+
+    
+}
+
+h1, h2, a {
+    animation: fade-in 3s;
+}
+
+h2 {
+    color: #dddddd;
+}
+
+.container {
+    text-align: center;
+}
+
+a, a:visited, a:link, a:active {
+    color:bisque;
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+    transition: .7s;
+    margin: 15px;
+    font-size: 18px;
+}
+
+a:hover {
+    cursor: pointer;
+    color:rgb(123, 156, 255);
+}
